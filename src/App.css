@@ -2,37 +2,27 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.FormMovie {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.FormMovie h1 {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.FormMovie .form-data {
+  margin: 5px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.FormMovie .form-data label {
+  display: inline-block;
+  width: 90px;
+  margin-right: 10px;
+  text-align: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.FormMovie .form-data input:not([type='submit']) {
+  flex-grow: 1;
 }
